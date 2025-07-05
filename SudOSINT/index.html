@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudocop OSINT Terminal</title>
+  
+  <!-- Bootstrap CSS for Professional Theme -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <!-- Site Navigation -->
+  <nav id="siteNavigation">
+    <div class="nav-brand">
+      <h1>🔍 SUDOCOP</h1>
+      <span class="nav-subtitle">OSINT Investigation Platform</span>
+    </div>
+    <div class="nav-links">
+      <a href="#dashboard" class="nav-link active">Dashboard</a>
+      <a href="#investigations" class="nav-link">Investigations</a>
+      <a href="#reports" class="nav-link">Reports</a>
+      <a href="#tools" class="nav-link">Tools</a>
+      <a href="#help" class="nav-link">Help</a>
+    </div>
+    <div class="nav-user">
+      <div class="theme-switcher">
+        <button id="themeToggle" onclick="toggleTheme()" title="Switch theme">
+          <span class="theme-icon">💻</span>
+          <span class="theme-text">Terminal</span>
+        </button>
+      </div>
+      <span class="user-info">Investigator Portal</span>
+      <button class="nav-toggle" onclick="toggleNavigation()">☰</button>
+    </div>
+  </nav>
+
+  <!-- Legal Disclaimer Banner -->
+  <div id="legalDisclaimer" class="legal-disclaimer">
+    <div class="disclaimer-content">
+      <i class="bi bi-exclamation-triangle-fill"></i>
+      <span><strong>Legal Notice:</strong> This tool is for legitimate OSINT research only. All searches are performed directly by the user. Users must comply with applicable laws and terms of service of third-party platforms.</span>
+      <button class="disclaimer-close" onclick="hideLegalDisclaimer()" title="Dismiss">&times;</button>
+    </div>
+  </div>
+
+  <!-- Main Application Container -->
+  <div id="appContainer">
+    
+    <!-- Module Palette -->
+    <div id="modulePalette">
+      <h2>🔍 OSINT MODULES</h2>
+      
+      <div class="search-filter">
+        <input type="text" id="moduleSearch" placeholder="🔍 Search modules..." />
+        <button id="expandAllBtn" onclick="toggleAllGroups()" title="Expand/Collapse All">📁</button>
+      </div>
+
+      <div class="group" data-group="case-management">
+        <h3 onclick="toggleGroup('case-management')">
+          <span class="group-icon">📋</span>
+          <span class="group-title">Case Management</span>
+          <span class="collapse-indicator">▼</span>
+        </h3>
+        <div class="group-content">
+          <button draggable="true" class="module-button" data-type="case-info" data-type-handler="runCaseInfo">📁 Case Information</button>
+          <button draggable="true" class="module-button" data-type="investigator-info" data-type-handler="runInvestigatorInfo">👤 Investigator Info</button>
+          <button draggable="true" class="module-button" data-type="custom-website" data-type-handler="runCustomWebsite">🌐 Custom Website</button>
+        </div>
+      </div>
+
+      <div class="group" data-group="person-identity">
+        <h3 onclick="toggleGroup('person-identity')">
+          <span class="group-icon">🕵️</span>
+          <span class="group-title">Person & Identity</span>
+          <span class="collapse-indicator">▼</span>
+        </h3>
+        <div class="group-content">
+          <button draggable="true" class="module-button" data-type="name" data-type-handler="runNameSearch">🔍 Name Search</button>
+          <button draggable="true" class="module-button" data-type="email" data-type-handler="runEmailSearch">✉️ Email Intel</button>
+          <button draggable="true" class="module-button" data-type="phone" data-type-handler="runPhoneSearch">📞 Phone Lookup</button>
+          <button draggable="true" class="module-button" data-type="username" data-type-handler="runUsernameSearch">👤 Username Pivot</button>
+          <button draggable="true" class="module-button" data-type="license" data-type-handler="runLicenseSearch">🧾 License Check</button>
+          <button draggable="true" class="module-button" data-type="ip" data-type-handler="runIPSearch">🔌 IP Analysis</button>
+        </div>
+      </div>
+
+      <div class="group" data-group="legal-records">
+        <h3 onclick="toggleGroup('legal-records')">
+          <span class="group-icon">📄</span>
+          <span class="group-title">Legal & Records</span>
+          <span class="collapse-indicator">▼</span>
+        </h3>
+        <div class="group-content">
+          <button draggable="true" class="module-button" data-type="court" data-type-handler="runCourtSearch">⚖️ Court Records</button>
+          <button draggable="true" class="module-button" data-type="property" data-type-handler="runPropertySearch">🏠 Property Records</button>
+          <button draggable="true" class="module-button" data-type="business" data-type-handler="runBusinessSearch">🏢 Business Registry</button>
+          <button draggable="true" class="module-button" data-type="sec" data-type-handler="runSecSearch">💼 SEC Filings</button>
+        </div>
+      </div>
+
+      <div class="group" data-group="vehicle-intelligence">
+        <h3 onclick="toggleGroup('vehicle-intelligence')">
+          <span class="group-icon">🚗</span>
+          <span class="group-title">Vehicle Intelligence</span>
+          <span class="collapse-indicator">▼</span>
+        </h3>
+        <div class="group-content">
+          <button draggable="true" class="module-button" data-type="vincheck" data-type-handler="runVinCheck">🚗 VIN Check (US)</button>
+          <button draggable="true" class="module-button" data-type="repuve" data-type-handler="runRepuve">🇲🇽 REPUVE (MX)</button>
+          <button draggable="true" class="module-button" data-type="placascheck" data-type-handler="runPlacasCheck">🇲🇽 License Plates (MX)</button>
+        </div>
+      </div>
+
+      <div class="group" data-group="missing-deceased">
+        <h3 onclick="toggleGroup('missing-deceased')">
+          <span class="group-icon">🧍</span>
+          <span class="group-title">Missing & Deceased</span>
+          <span class="collapse-indicator">▼</span>
+        </h3>
+        <div class="group-content">
+          <button draggable="true" class="module-button" data-type="namus" data-type-handler="runNaMus">🧍 NAMUS Missing</button>
+          <button draggable="true" class="module-button" data-type="missingkids" data-type-handler="runMissingKids">🧒 Missing Kids</button>
+          <button draggable="true" class="module-button" data-type="mexico-missing" data-type-handler="runMexicoMissing">🇲🇽 Personas Desaparecidas</button>
+          <button draggable="true" class="module-button" data-type="namus-unidentified" data-type-handler="runNaMusUnidentified">🕵️‍♀️ Unidentified Persons</button>
+          <button draggable="true" class="module-button" data-type="doenetwork" data-type-handler="runDoeNetwork">🧬 Doe Network</button>
+          <button draggable="true" class="module-button" data-type="findagrave" data-type-handler="runFindAGrave">🪦 FindAGrave</button>
+          <button draggable="true" class="module-button" data-type="legacyobits" data-type-handler="runLegacyObits">📰 Obituaries</button>
+        </div>
+      </div>
+
+      <div class="group" data-group="google-dorking">
+        <h3 onclick="toggleGroup('google-dorking')">
+          <span class="group-icon">🧠</span>
+          <span class="group-title">Google Dorking</span>
+          <span class="collapse-indicator">▼</span>
+        </h3>
+        <div class="group-content">
+          <button draggable="true" class="module-button" data-type="google-dork" data-type-handler="runDorkSearch">🔍 Custom Dork</button>
+          <button draggable="true" class="module-button" data-type="filetype-dork" data-type-handler="runFiletypeDork">📄 Document Search</button>
+          <button draggable="true" class="module-button" data-type="site-dork" data-type-handler="runSiteDork">🌐 Site-Specific</button>
+          <button draggable="true" class="module-button" data-type="social-dork" data-type-handler="runSocialDork">📱 Social Media</button>
+          <button draggable="true" class="module-button" data-type="cache-dork" data-type-handler="runCacheDork">💾 Cached Pages</button>
+          <button draggable="true" class="module-button" data-type="leak-dork" data-type-handler="runLeakDork">🚨 Data Leaks</button>
+          <button draggable="true" class="module-button" data-type="vulnerability-dork" data-type-handler="runVulnerabilityDork">⚠️ Vulnerabilities</button>
+        </div>
+      </div>
+
+      <div class="group" data-group="internet-intelligence">
+        <h3 onclick="toggleGroup('internet-intelligence')">
+          <span class="group-icon">🌐</span>
+          <span class="group-title">Internet Intelligence</span>
+          <span class="collapse-indicator">▼</span>
+        </h3>
+        <div class="group-content">
+          <button draggable="true" class="module-button" data-type="domain" data-type-handler="runDomainSearch">🌐 Domain Analysis</button>
+          <button draggable="true" class="module-button" data-type="news" data-type-handler="runNewsSearch">📰 Archived News</button>
+          <button draggable="true" class="module-button" data-type="messaging" data-type-handler="runMessagingSearch">💬 Social Platforms</button>
+        </div>
+      </div>
+
+      <div class="group" data-group="media-analysis">
+        <h3 onclick="toggleGroup('media-analysis')">
+          <span class="group-icon">🖼️</span>
+          <span class="group-title">Media Analysis</span>
+          <span class="collapse-indicator">▼</span>
+        </h3>
+        <div class="group-content">
+          <button draggable="true" class="module-button" data-type="image" data-type-handler="runImageSearch">🖼️ Reverse Image</button>
+          <button draggable="true" class="module-button" data-type="imageforensics" data-type-handler="runImageForensics">🔍 Image Forensics</button>
+          <button draggable="true" class="module-button" data-type="metadata" data-type-handler="runMetadataViewer">📷 Metadata Viewer</button>
+          <button draggable="true" class="module-button" data-type="facial" data-type-handler="runFacialSearch">🧠 Facial Recognition</button>
+        </div>
+      </div>
+
+      <div class="group" data-group="education-location">
+        <h3 onclick="toggleGroup('education-location')">
+          <span class="group-icon">🎓</span>
+          <span class="group-title">Education & Location</span>
+          <span class="collapse-indicator">▼</span>
+        </h3>
+        <div class="group-content">
+          <button draggable="true" class="module-button" data-type="educationverify" data-type-handler="runEducationVerify">🎓 Education Check</button>
+          <button draggable="true" class="module-button" data-type="geolocation" data-type-handler="runGeoSearch">📍 Geolocation</button>
+        </div>
+      </div>
+
+      <div class="group" data-group="breach-darkweb">
+        <h3 onclick="toggleGroup('breach-darkweb')">
+          <span class="group-icon">💀</span>
+          <span class="group-title">Breach & Dark Web</span>
+          <span class="collapse-indicator">▼</span>
+        </h3>
+        <div class="group-content">
+          <button draggable="true" class="module-button" data-type="breachintel" data-type-handler="runBreachIntel">💀 Breach Intelligence</button>
+        </div>
+      </div>
+
+      <div class="group" data-group="documentation">
+        <h3 onclick="toggleGroup('documentation')">
+          <span class="group-icon">📒</span>
+          <span class="group-title">Documentation</span>
+          <span class="collapse-indicator">▼</span>
+        </h3>
+        <div class="group-content">
+          <button draggable="true" class="module-button" data-type="notes" data-type-handler="runNotes">🗒️ Investigation Notes</button>
+        </div>
+      </div>
+
+      <div id="disclaimer">
+        ⚠️ <strong>Disclaimer:</strong><br/>
+        This tool does not store, collect, or process personal data.<br/>
+        All searches are performed directly by the user in their browser.<br/>
+        Third-party results are not monitored, stored, or intercepted.
+      </div>
+    </div>
+
+    <!-- Investigation Workspace -->
+    <div id="workspace">
+      <h2>🖥️ Investigation Workspace</h2>
+      
+      <div id="workspaceDropZone">
+        <span style="color: #555; font-size: 16px;">🎯 Drop Investigation Modules Here</span>
+      </div>
+
+      <div class="log-controls">
+        <button onclick="clearLiveLog()">🗑️ Clear Log</button>
+        <button onclick="exportLiveLog()">📄 Export Log</button>
+        <button onclick="toggleAutoScroll()" id="autoScrollBtn">📜 Auto-scroll: ON</button>
+      </div>
+
+      <h3 style="color: #0f0; margin-bottom: 0.5rem;">📋 Live Search Activity</h3>
+      <div id="liveSearchLog">
+        <div class="log-entry welcome">
+          <span class="timestamp">[${new Date().toLocaleTimeString()}]</span>
+          <span class="action">SYSTEM</span>
+          <span class="details">Investigation workspace initialized. Ready for OSINT operations.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active Investigation Stack -->
+    <div id="moduleStack">
+      <h2>🧩 Active Investigation</h2>
+      
+      <div class="stack-controls">
+        <button onclick="printStackReport()">🖨️ Generate Report</button>
+        <button onclick="clearStack()">🗑️ Clear All</button>
+        <button onclick="exportLog()">📄 Export Log</button>
+        <button onclick="showExportMenu()" id="exportMenuBtn">📤 Export Data</button>
+      </div>
+      
+      <div class="stats-display">
+        <div>📊 <strong>Active Modules:</strong> <span id="moduleCount">0</span></div>
+        <div>🔍 <strong>Total Searches:</strong> <span id="searchCount">0</span></div>
+        <div>⏱️ <strong>Session Time:</strong> <span id="sessionTime">00:00</span></div>
+      </div>
+      
+      <div id="stackContent"></div>
+    </div>
+
+  </div>
+
+  <!-- Keyboard Shortcuts Help -->
+  <div id="keyboardHelp">
+    <strong>Keyboard Shortcuts:</strong><br/>
+    Ctrl+S: Export Log<br/>
+    Ctrl+P: Print Report<br/>
+    Ctrl+N: Add Notes<br/>
+    Enter: Run Search
+  </div>
+
+  <!-- Export Menu Modal -->
+  <div id="exportModal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>📤 Export Investigation Data</h3>
+        <span class="close" onclick="closeExportMenu()">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p>Choose your export format for importing into other investigation tools:</p>
+        
+        <div class="export-section">
+          <h4>🔗 Graph Analysis Tools</h4>
+          <button onclick="exportToMaltego()" class="export-btn">
+            <span class="export-icon">🕸️</span>
+            <span class="export-info">
+              <strong>Maltego CSV</strong><br/>
+              <small>Import entities and links into Maltego/CaseFile</small>
+            </span>
+          </button>
+          <button onclick="exportToGephi()" class="export-btn">
+            <span class="export-icon">📊</span>
+            <span class="export-info">
+              <strong>Gephi Format</strong><br/>
+              <small>Network analysis and visualization</small>
+            </span>
+          </button>
+        </div>
+
+        <div class="export-section">
+          <h4>📝 Documentation Tools</h4>
+          <button onclick="exportToCSV()" class="export-btn">
+            <span class="export-icon">📋</span>
+            <span class="export-info">
+              <strong>CSV Spreadsheet</strong><br/>
+              <small>Excel, Google Sheets, database import</small>
+            </span>
+          </button>
+          <button onclick="exportToJSON()" class="export-btn">
+            <span class="export-icon">⚙️</span>
+            <span class="export-info">
+              <strong>JSON Data</strong><br/>
+              <small>API integration, custom tools</small>
+            </span>
+          </button>
+        </div>
+
+        <div class="export-section">
+          <h4>🔍 Investigation Platforms</h4>
+          <button onclick="exportToHunchly()" class="export-btn">
+            <span class="export-icon">🔍</span>
+            <span class="export-info">
+              <strong>Hunchly Format</strong><br/>
+              <small>Import into Hunchly case management</small>
+            </span>
+          </button>
+          <button onclick="exportToMITRE()" class="export-btn">
+            <span class="export-icon">🛡️</span>
+            <span class="export-info">
+              <strong>MITRE ATT&CK</strong><br/>
+              <small>Threat intelligence framework</small>
+            </span>
+          </button>
+        </div>
+
+        <div class="export-section">
+          <h4>📄 Report Formats</h4>
+          <button onclick="exportToMarkdown()" class="export-btn">
+            <span class="export-icon">📝</span>
+            <span class="export-info">
+              <strong>Markdown</strong><br/>
+              <small>GitHub, documentation platforms</small>
+            </span>
+          </button>
+          <button onclick="exportToSTIX()" class="export-btn">
+            <span class="export-icon">🔒</span>
+            <span class="export-info">
+              <strong>STIX Format</strong><br/>
+              <small>Cyber threat intelligence sharing</small>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

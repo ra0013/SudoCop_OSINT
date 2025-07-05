@@ -1,0 +1,10 @@
+/* Sudocop OSINT Terminal - Main Styles */
+/* Import Base Styles */
+@import url('base.css');
+
+/* Import Theme Styles */
+@import url('terminal-theme.css');
+@import url('professional-theme.css');
+
+/* This file serves as the main entry point for all styles.
+   Individual theme styles are now separated for better maintainability. */

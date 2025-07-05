@@ -1,0 +1,71 @@
+/* Terminal Theme CSS Variables */
+:root {
+  --bg-primary: #000;
+  --bg-secondary: #111;
+  --bg-tertiary: #0a0a0a;
+  --text-primary: #0f0;
+  --text-secondary: #888;
+  --text-tertiary: #ccc;
+  --text-accent: #ff0;
+  --border-primary: #0f0;
+  --border-secondary: #333;
+  --accent-primary: #0f0;
+  --accent-secondary: #f00;
+  --shadow-primary: rgba(0, 255, 0, 0.3);
+  --shadow-secondary: rgba(0, 255, 0, 0.1);
+  --font-family: 'Courier New', monospace;
+}
+
+/* Terminal-specific styling */
+.nav-brand h1 {
+  text-shadow: 0 0 10px var(--shadow-primary);
+}
+
+#modulePalette h2,
+#workspace h2,
+#workspace h3,
+#moduleStack h2 {
+  text-shadow: 0 0 10px var(--shadow-primary);
+}
+
+.group h3 {
+  text-shadow: 0 0 5px var(--shadow-primary);
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 5px var(--shadow-primary);
+}
+
+.url-link:hover {
+  text-shadow: 0 0 5px var(--shadow-primary);
+}
+
+.info-btn:hover {
+  text-shadow: 0 0 10px var(--shadow-primary);
+}
+
+/* Terminal theme special styling */
+.log-entry.welcome {
+  border-left-color: var(--text-accent);
+  background: rgba(255, 255, 0, 0.05);
+}
+
+.module-button.highlighted {
+  background: var(--text-accent);
+  color: var(--bg-primary);
+}
+
+#disclaimer {
+  margin-top: 2rem;
+  font-size: 10px;
+  color: var(--text-secondary);
+  padding: 0.5rem;
+  border: 1px solid var(--border-secondary);
+  border-radius: 4px;
+  background: rgba(255, 255, 0, 0.05);
+}
+
+#keyboardHelp {
+  background: rgba(0,0,0,0.8);
+  color: var(--text-primary);
+}

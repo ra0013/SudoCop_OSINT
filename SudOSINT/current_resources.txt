@@ -1,0 +1,958 @@
+# Expanded OSINT Investigation Modules - Complete Resource Collection
+
+---
+
+## 📞 PHONE NUMBER INVESTIGATION MODULE
+
+### Free Reverse Phone Lookup Tools
+- **TrueCaller:** https://www.truecaller.com (Global database, spam identification)
+- **Sync.me:** https://sync.me (Reverse number lookup)
+- **ThatsThem:** https://thatsthem.com (US phone numbers)
+- **WhitePages Reverse:** https://www.whitepages.com/reverse-phone
+- **SpyDialer:** https://www.spydialer.com (Free reverse lookup with owner info)
+- **Nuwber:** https://nuwber.com (Reverse phone lookup)
+- **FreeLookup:** https://www.freelookup.com
+- **NumLookup:** https://numlookup.com (US phone numbers)
+- **WhoCalledMe:** https://whocalledme.com (User-reported database)
+- **OSINT Reverse Phone:** https://osint.lolarchiver.com/reverse_phone
+
+### Advanced Phone Investigation Tools
+- **OSINT Industries:** https://www.osint.industries (Real-time phone intelligence)
+- **Irbis:** Advanced search platform with phone lookup
+- **Epieos:** https://epieos.com (Phone number OSINT)
+- **Ignorant:** Check if phone number used on Amazon, Instagram, etc.
+- **H8Mail:** Command-line tool for phone/email correlation
+- **PhoneInfoga:** GitHub tool for phone number investigation
+
+### Carrier & Provider Lookup
+- **Twilio Lookup API:** https://www.twilio.com/lookup (Global carrier info)
+- **Mobile Number Tracker:** https://www.mobilenumbertracker.com
+- **Free Carrier Lookup:** https://freecarrierlookup.com
+- **NumberGuru:** https://www.numberguru.com
+- **CarrierLookup:** https://www.carrierlookup.com
+
+### Phone Number Geolocation
+- **Numverify API:** https://numverify.com (Phone validation & geolocation)
+- **Phone Validator:** https://www.phonevalidator.com
+- **LocateFamily:** https://www.locatefamily.com
+- **NumLookup Geolocation:** Location by area code
+
+### Specialized Phone Tools
+- **PhoneInfoga:** https://github.com/sundowndev/PhoneInfoga (Command-line tool)
+- **Phunter:** OSINT tool for phone number investigation
+- **SEON Phone Check:** https://seon.io (Fraud prevention, phone analysis)
+- **OpenCNAM:** https://www.opencnam.com (Caller ID API)
+- **Burner Detection:** Tools to identify temporary/VoIP numbers
+
+---
+
+## 📧 EMAIL INVESTIGATION MODULE
+
+### Email Intelligence Platforms
+- **OSINT Industries:** https://www.osint.industries (Real-time email intelligence)
+- **Hunter.io:** https://hunter.io (Email finder & verification)
+- **EmailRep:** https://emailrep.io (Email reputation check)
+- **Pipl:** https://pipl.com (Comprehensive people search)
+- **UserSearch:** https://usersearch.org (Email-to-profile mapping)
+
+### Email Breach & Security Analysis
+- **Have I Been Pwned:** https://haveibeenpwned.com (Data breach checker)
+- **DeHashed:** https://dehashed.com (Breach data search)
+- **LeakCheck:** https://leakcheck.io (Email breach analysis)
+- **Snusbase:** https://snusbase.com (Data breach search)
+- **H8Mail:** Command-line breach checker
+
+### Email-to-Social Media Discovery
+- **SocialCatfish:** https://socialcatfish.com (Email to social profiles)
+- **Sherlock:** https://github.com/sherlock-project/sherlock (Username search)
+- **EmailSherlock:** Email-based social media discovery
+- **Epieos:** https://epieos.com (Email OSINT toolkit)
+- **OmniNet:** Social media account discovery
+
+### Email Validation & Analysis
+- **Email Hippo:** https://www.emailhippo.com (Email verification)
+- **ZeroBounce:** https://www.zerobounce.net (Email validation)
+- **NeverBounce:** https://neverbounce.com (Email verification)
+- **EmailListValidation:** https://www.emaillistvalidation.com
+- **MailTester:** https://www.mail-tester.com
+
+### Email Permutation & Discovery
+- **Email Permutator:** https://www.polarity.io/email-permutator
+- **Mail Meteor:** Email permutation tool
+- **Metric Sparrow:** Email variation generator
+- **CrossLinked:** https://github.com/m8r0wn/crosslinked (LinkedIn email harvester)
+
+### Specialized Email Tools
+- **Aware Online Email Tool:** https://www.aware-online.com/en/osint-tools/email-search-tool/
+- **GitHub Email Search:** https://github.com/The-Osint-Toolbox/Email-Username-OSINT
+- **SpiderFoot:** https://www.spiderfoot.net (Automated email investigation)
+- **Maltego Email Transforms:** Email relationship mapping
+
+---
+
+## 👤 USERNAME INVESTIGATION MODULE
+
+### Username Search Engines
+- **Sherlock:** https://github.com/sherlock-project/sherlock (400+ platforms)
+- **WhatsMyName:** https://whatsmyname.app (Username availability checker)
+- **Namechk:** https://namechk.com (Username availability across platforms)
+- **KnowEm:** https://knowem.com (Social media username search)
+- **UserSearch:** https://usersearch.org (Username-to-profile discovery)
+
+### Advanced Username Analysis
+- **Maigret:** https://github.com/soxoj/maigret (Advanced username OSINT)
+- **Social Analyzer:** https://github.com/qeeqbox/social-analyzer
+- **Blackbird:** https://github.com/p1ngul1n0/blackbird (Username OSINT)
+- **Nexfil:** https://github.com/thewhiteh4t/nexfil (Username search)
+- **UserRecon:** https://github.com/thelinuxchoice/userrecon
+
+### Platform-Specific Username Tools
+- **Instagram Username Search:** https://www.instagram.com (direct search)
+- **Twitter Advanced Search:** https://twitter.com/search-advanced
+- **LinkedIn Username Search:** https://www.linkedin.com/search/
+- **GitHub Username Search:** https://github.com/search
+- **Reddit User Analysis:** https://redditmetis.com
+
+### Username Pattern Analysis
+- **Username Generation:** Pattern identification tools
+- **Alias Discovery:** Connected username identification
+- **Cross-Platform Correlation:** Username reuse analysis
+- **Gaming Platform Search:** Steam, Xbox, PlayStation usernames
+
+---
+
+## 📱 IMEI & DEVICE INVESTIGATION MODULE
+
+### IMEI Lookup & Analysis
+- **IMEI.info:** https://www.imei.info (Free IMEI checker)
+- **IMEI24:** https://imei24.com (Device information lookup)
+- **IMEIpro:** https://imeipro.info (International blacklist checker)
+- **eIMEI24:** https://eimei24.com (IMEI investigation tool)
+- **IMEI.org:** https://imei.org (Comprehensive IMEI database)
+
+### Device Tracking & Status
+- **CyberYodha IMEI Tools:** https://www.cyberyodha.org/p/imei.html
+- **IMEI Tracker Online:** Device location services
+- **GSMArena Device Database:** https://www.gsmarena.com (Device specifications)
+- **CheckMEND:** https://www.checkmend.com (Stolen device database)
+
+### Mobile Forensics Resources
+- **Cellebrite IMEI Guide:** IMEI forensics information
+- **IMEI Blacklist Check:** Stolen device verification
+- **TAC (Type Allocation Code) Lookup:** Device manufacturer identification
+- **IMEI Validation Tools:** Format verification
+
+### Device Intelligence
+- **IMEI-to-Model Mapping:** Device identification
+- **Manufacturing Date Analysis:** Device age determination
+- **Warranty Status Check:** Device warranty information
+- **Network Lock Status:** Carrier lock verification
+
+---
+
+## 🎯 ADVERTISING ID & DEVICE FINGERPRINTING MODULE
+
+### Advertising ID Analysis
+- **Google Advertising ID (GAID):** Android device tracking
+- **Apple IDFA (Identifier for Advertisers):** iOS device tracking
+- **Microsoft Advertising ID:** Windows device tracking
+- **Samsung Advertising ID:** Samsung-specific tracking
+
+### Device Fingerprinting Tools
+- **FingerprintJS:** https://fingerprintjs.com (Browser fingerprinting)
+- **AmIUnique:** https://amiunique.org (Browser uniqueness test)
+- **Device Info:** https://www.deviceinfo.me (Device fingerprint analysis)
+- **BrowserLeaks:** https://browserleaks.com (Privacy test suite)
+
+### Cross-Device Tracking
+- **Cross-Device Analytics:** Multi-platform user tracking
+- **Device Graph Analysis:** Connected device identification
+- **Ad Network Correlation:** Advertising-based device linking
+- **App-to-Web Tracking:** Mobile-to-browser correlation
+
+### Privacy & Tracking Analysis
+- **Ghostery:** https://www.ghostery.com (Tracker identification)
+- **Disconnect:** https://disconnect.me (Privacy analysis)
+- **Privacy Badger:** https://privacybadger.org (Tracking protection)
+- **Tracker Database:** Known advertising tracker identification
+
+---
+
+## 🏠 ADDRESS & GEOLOCATION MODULE
+
+### Address Investigation Tools
+- **PropertyRadar:** https://www.propertyradar.com (Property intelligence)
+- **Zillow:** https://www.zillow.com (Property records)
+- **Realtor.com:** https://www.realtor.com (Real estate data)
+- **PropertyShark:** https://www.propertyshark.com (Property analysis)
+- **BeenVerified Address:** Address history lookup
+
+### Geolocation Intelligence
+- **What3Words:** https://what3words.com (Precise location coding)
+- **Plus Codes:** https://plus.codes (Google location codes)
+- **Reverse Geocoding:** Coordinate-to-address conversion
+- **IP Geolocation:** https://whatismyipaddress.com
+
+### Property & Public Records
+- **BlackBook Online:** https://www.blackbookonline.info (Public records)
+- **SearchSystems:** https://www.searchsystems.net (Public record search)
+- **VitalRec:** https://www.vitalrec.com (Vital records by state)
+- **PublicRecordsNow:** https://www.publicrecordsnow.com
+
+### Mapping & Satellite Intelligence
+- **Google Earth:** https://earth.google.com (Satellite imagery)
+- **Bing Maps:** https://www.bing.com/maps (Street view & aerial)
+- **Mapillary:** https://www.mapillary.com (Street-level imagery)
+- **OpenStreetMap:** https://www.openstreetmap.org (Collaborative mapping)
+
+---
+
+## 🌐 IP ADDRESS & NETWORK MODULE
+
+### IP Intelligence Platforms
+- **Shodan:** https://www.shodan.io (Internet-connected device search)
+- **Censys:** https://censys.io (Internet scanning & analysis)
+- **ZoomEye:** https://www.zoomeye.org (Global cyberspace search)
+- **BinaryEdge:** https://www.binaryedge.io (Internet scanning)
+
+### IP Geolocation & Analysis
+- **MaxMind GeoIP:** https://www.maxmind.com (IP geolocation)
+- **IPinfo:** https://ipinfo.io (IP address data)
+- **IP2Location:** https://www.ip2location.com (Geolocation database)
+- **WhatIsMyIPAddress:** https://whatismyipaddress.com
+
+### Network Investigation
+- **WHOIS Lookup:** https://www.whois.net (Domain registration info)
+- **DomainTools:** https://www.domaintools.com (Domain intelligence)
+- **Robtex:** https://www.robtex.com (DNS & IP analysis)
+- **ViewDNS:** https://viewdns.info (DNS analysis tools)
+
+### Threat Intelligence
+- **VirusTotal:** https://www.virustotal.com (File & URL analysis)
+- **URLVoid:** https://www.urlvoid.com (Website reputation)
+- **AbuseIPDB:** https://www.abuseipdb.com (IP reputation)
+- **ThreatCrowd:** https://www.threatcrowd.org (Threat intelligence)
+
+---
+
+## 🆔 CRYPTO & BLOCKCHAIN MODULE
+
+### Cryptocurrency Investigation
+- **Blockchain.info:** https://www.blockchain.com/explorer (Bitcoin explorer)
+- **Etherscan:** https://etherscan.io (Ethereum blockchain explorer)
+- **Chainalysis:** https://www.chainalysis.com (Professional crypto tracking)
+- **OXT:** https://oxt.me (Bitcoin transaction analysis)
+
+### Wallet & Address Analysis
+- **BitcoinWhosWho:** https://www.bitcoinwhoswho.com (Bitcoin address database)
+- **WalletExplorer:** https://www.walletexplorer.com (Bitcoin wallet clustering)
+- **Crystal Blockchain:** Crystal analytics platform
+- **Elliptic:** https://www.elliptic.co (Crypto investigation)
+
+### DeFi & NFT Investigation
+- **DeBank:** https://debank.com (DeFi portfolio tracker)
+- **Nansen:** https://www.nansen.ai (On-chain analytics)
+- **Dune Analytics:** https://dune.com (Blockchain data analysis)
+- **OpenSea:** https://opensea.io (NFT marketplace analysis)
+
+---
+
+## 🔗 DOMAIN & WEBSITE MODULE
+
+### Domain Intelligence
+- **DomainTools:** https://www.domaintools.com (Domain research)
+- **WHOIS History:** Historical domain registration
+- **SecurityTrails:** https://securitytrails.com (DNS history)
+- **DomainWatch:** https://www.domainwatch.com (Domain monitoring)
+
+### Website Analysis
+- **Builtwith:** https://builtwith.com (Technology profiler)
+- **Wappalyzer:** https://www.wappalyzer.com (Website technology detection)
+- **SimilarWeb:** https://www.similarweb.com (Website analytics)
+- **Wayback Machine:** https://web.archive.org (Website history)
+
+### SSL & Security Analysis
+- **SSL Labs:** https://www.ssllabs.com/ssltest/ (SSL server test)
+- **Certificate Search:** https://crt.sh (Certificate transparency)
+- **Hardenize:** https://www.hardenize.com (Security analysis)
+
+---
+
+## 📊 DATA BREACH & LEAK MODULE
+
+### Breach Databases
+- **Have I Been Pwned:** https://haveibeenpwned.com (Primary breach checker)
+- **DeHashed:** https://dehashed.com (Breach data search)
+- **LeakCheck:** https://leakcheck.io (Data leak search)
+- **Snusbase:** https://snusbase.com (Breach intelligence)
+- **IntelligenceX:** https://intelx.io (Data breach search)
+
+### Paste & Leak Sites
+- **Pastebin Search:** https://psbdmp.ws (Pastebin monitoring)
+- **DumpScan:** Paste site monitoring
+- **PasteLert:** Paste content alerts
+- **Leak Monitoring:** Automated leak detection
+
+---
+
+## 🎮 GAMING & DIGITAL IDENTITY MODULE
+
+### Gaming Platform Investigation
+- **Steam ID Finder:** https://steamidfinder.com (Steam profile lookup)
+- **Xbox Gamertag Search:** Xbox Live profile investigation
+- **PlayStation Network:** PSN profile analysis
+- **Discord User Search:** Discord user investigation
+- **Twitch Analytics:** https://twitchtracker.com (Twitch streamer data)
+
+### Digital Identity Correlation
+- **Cross-Platform Gaming:** Multi-platform identity linking
+- **Gaming Community Analysis:** Forum and community investigation
+- **Streaming Platform Intelligence:** Content creator investigation
+- **Virtual World Investigation:** Metaverse and VR platform analysis
+
+---
+
+## 🛠️ AUTOMATION & API MODULE
+
+### API Resources
+- **RapidAPI:** https://rapidapi.com (API marketplace)
+- **Clearbit API:** https://clearbit.com (Business intelligence)
+- **FullContact API:** https://www.fullcontact.com (Person enrichment)
+- **Pipl API:** https://pipl.com (People search API)
+
+### Automation Tools
+- **Maltego:** https://www.maltego.com (Link analysis platform)
+- **SpiderFoot:** https://www.spiderfoot.net (Automated OSINT)
+- **Recon-ng:** https://github.com/lanmaster53/recon-ng (Reconnaissance framework)
+- **TheHarvester:** https://github.com/laramies/theHarvester (Information gathering)
+
+### Custom Scripting Resources
+- **Python OSINT Libraries:** BeautifulSoup, Requests, Scrapy
+- **PowerShell OSINT Modules:** OSINT automation scripts
+- **Bash OSINT Scripts:** Linux-based investigation tools
+- **API Integration:** Custom tool development
+
+---
+
+## 📱 SOCIAL MEDIA DEEP DIVE MODULE
+
+### Platform-Specific Advanced Tools
+- **Facebook Graph Search:** Advanced Facebook investigation
+- **Instagram OSINT:** https://github.com/Datalux/Osintgram
+- **Twitter Intelligence:** https://github.com/twintproject/twint
+- **LinkedIn Intelligence:** Sales Navigator for investigations
+- **TikTok OSINT:** User and content analysis
+
+### Social Media Analytics
+- **Social Blade:** https://socialblade.com (Social media statistics)
+- **HypeAuditor:** https://hypeauditor.com (Influencer analytics)
+- **Followerwonk:** https://followerwonk.com (Twitter analytics)
+- **Iconosquare:** https://pro.iconosquare.com (Instagram analytics)
+
+### Content Analysis
+- **Reverse Image Search:** Multiple engines for social media content
+- **Video Analysis:** Frame-by-frame social media video investigation
+- **Audio Analysis:** Voice and audio content from social media
+- **Metadata Extraction:** Social media file metadata analysis
+
+---
+
+## 🏛️ GOVERNMENT & LEGAL MODULE
+
+### Court Records
+- **PACER:** https://www.pacer.gov (Federal court records)
+- **State Court Records:** Individual state court systems
+- **JustMugshots:** https://www.justmugshots.com (Arrest records)
+- **VINELink:** https://www.vinelink.com (Offender information)
+
+### Professional Licenses
+- **Medical License Verification:** State medical boards
+- **Legal License Verification:** State bar associations
+- **Business License Search:** Secretary of State offices
+- **Professional Certification:** Industry-specific license databases
+
+### Regulatory Databases
+- **SEC EDGAR:** https://www.sec.gov/edgar (Securities filings)
+- **FINRA BrokerCheck:** https://brokercheck.finra.org
+- **USPTO Trademark Search:** https://www.uspto.gov
+- **FCC License Search:** https://wireless2.fcc.gov/UlsApp/UlsSearch/searchLicense.jsp
+
+---
+
+## 📈 BUSINESS INTELLIGENCE MODULE
+
+### Company Investigation
+- **OpenCorporates:** https://opencorporates.com (Global company database)
+- **CrunchBase:** https://www.crunchbase.com (Startup intelligence)
+- **ZoomInfo:** https://www.zoominfo.com (Business contacts)
+- **LinkedIn Sales Navigator:** Professional network analysis
+
+### Financial Intelligence
+- **Yahoo Finance:** https://finance.yahoo.com (Financial data)
+- **Bloomberg Terminal:** Professional financial data
+- **Morningstar:** https://www.morningstar.com (Investment research)
+- **SEC Filings:** Public company financial reports
+
+### Supply Chain Intelligence
+- **Import/Export Records:** Trade data analysis
+- **Shipping Intelligence:** Maritime and logistics data
+- **Supplier Databases:** B2B relationship mapping
+- **Industry Analysis:** Sector-specific intelligence
+
+---
+
+## 🌍 SPECIALIZED INTERNATIONAL MODULE
+
+### Country-Specific Resources
+- **UK Companies House:** https://beta.companieshouse.gov.uk
+- **Canadian Corporate Registry:** https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/
+- **European Business Register:** https://www.ebr.org
+- **Asian Business Intelligence:** Region-specific databases
+
+### Language-Specific Tools
+- **Yandex (Russian):** https://yandex.com (Russian search engine)
+- **Baidu (Chinese):** https://www.baidu.com (Chinese search engine)
+- **Naver (Korean):** https://www.naver.com (Korean search engine)
+- **Regional Social Media:** Country-specific platforms
+
+### Cultural Intelligence
+- **Name Analysis:** Cultural and linguistic name investigation
+- **Regional Forums:** Local community investigation
+- **Cultural Context:** Region-specific investigation techniques
+- **Translation Tools:** Multi-language investigation support
+
+---
+
+**Total Resource Count:** 500+ Tools & Databases  
+**Coverage:** Global investigation capabilities  
+**Update Frequency:** Continuously maintained  
+**Access:** Mix of free and premium resources
+
+
+OSINT Investigation Resources - Comprehensive Link Directory
+General People Search & Background
+Primary Search Engines
+Google Advanced Search: https://www.google.com/advanced_search
+Bing: https://www.bing.com
+DuckDuckGo: https://duckduckgo.com
+Yandex: https://yandex.com (excellent for reverse image search)
+Baidu: https://www.baidu.com (Chinese search engine)
+People Search Engines
+TruePeopleSearch: https://www.truepeoplesearch.com
+WhitePages: https://www.whitepages.com
+Spokeo: https://www.spokeo.com
+PeopleFinder: https://www.peoplefinder.com
+FastPeopleSearch: https://www.fastpeoplesearch.com
+FamilyTreeNow: https://www.familytreenow.com
+ThatsThem: https://thatsthem.com
+BeenVerified: https://www.beenverified.com
+Intelius: https://www.intelius.com
+PeopleSmart: https://www.peoplesmart.com
+US Search: https://www.ussearch.com
+PublicRecordsNow: https://www.publicrecordsnow.com
+Social Media Intelligence
+Pipl: https://pipl.com (comprehensive people search)
+Social Searcher: https://www.social-searcher.com
+Mention: https://mention.com
+Hootsuite Insights: https://www.hootsuite.com
+Brand24: https://brand24.com
+Talkwalker: https://www.talkwalker.com
+Professional Networks
+LinkedIn: https://www.linkedin.com
+ZoomInfo: https://www.zoominfo.com
+Hunter.io: https://hunter.io (email finder)
+RocketReach: https://rocketreach.co
+ContactOut: https://contactout.com
+Apollo: https://www.apollo.io
+Death Records & Obituaries
+Death Record Databases
+Social Security Death Index (SSDI): Multiple sources
+FamilySearch: https://www.familysearch.org
+FindAGrave: https://www.findagrave.com
+Ancestry.com: https://www.ancestry.com
+MyHeritage: https://www.myheritage.com
+Genealogy.com: https://www.genealogy.com
+Archives.com: https://www.archives.com
+NewspaperArchive: https://newspaperarchive.com
+GenealogyBank: https://www.genealogybank.com
+Obituary Specific Sites
+Legacy.com: https://www.legacy.com
+Obituaries.com: https://www.obituaries.com
+ObituariesHelp: https://www.obituarieshelp.org
+Tributes.com: https://www.tributes.com
+Ever Loved: https://everloved.com
+Memories.net: https://www.memories.net
+Cemetery & Burial Records
+FindAGrave: https://www.findagrave.com
+BillionGraves: https://billiongraves.com
+Interment.net: https://www.interment.net
+Cemetery Junction: https://www.cemeteryjunction.com
+USGenWeb: https://www.usgenweb.org
+Missing Persons
+Official Databases
+National Missing and Unidentified Persons System (NamUs): https://namus.nij.ojp.gov
+National Center for Missing & Exploited Children: https://www.missingkids.org
+FBI's Wanted: https://www.fbi.gov/wanted
+U.S. Marshals Most Wanted: https://www.usmarshals.gov/what-we-do/fugitive-operations/most-wanted
+NCIC (Law Enforcement Only): Restricted access
+Missing Person Organizations
+The Doe Network: https://www.doenetwork.org
+The Charley Project: https://charleyproject.org
+Help Find the Missing: https://www.helpfindthemissing.org
+Missing People: https://www.missingpeople.org.uk (UK)
+Project Jason: https://www.projectjason.org
+Cold Case Resources
+Cold Case Database: https://www.coldcase-database.com
+Unsolved Mysteries: https://unsolved.com
+WebSleuths: https://www.websleuths.com
+Reddit Cold Cases: https://www.reddit.com/r/coldcases
+International Resources
+European Union
+Europol Most Wanted: https://www.europol.europa.eu/most-wanted
+Interpol Red Notices: https://www.interpol.int/en/How-we-work/Notices/Red-Notices
+European Missing Children: https://missingchildreneurope.eu
+United Kingdom
+UK Police National Database: https://www.police.uk
+Missing People UK: https://www.missingpeople.org.uk
+Action Fraud: https://www.actionfraud.police.uk
+Companies House: https://www.gov.uk/government/organisations/companies-house
+Canada
+RCMP Missing Persons: https://www.rcmp-grc.gc.ca/en/missing-persons
+Canadian Centre for Child Protection: https://www.protectchildren.ca
+Canada411: https://www.canada411.ca
+Australia
+Australian Federal Police: https://www.afp.gov.au
+Missing Persons Unit: https://www.missingpersons.gov.au
+White Pages Australia: https://www.whitepages.com.au
+Other Countries
+Mexico: https://www.gob.mx/segob
+Germany: https://www.bka.de
+France: https://www.police-nationale.interieur.gouv.fr
+Japan: https://www.npa.go.jp
+South Korea: https://www.police.go.kr
+Public Records & Court Documents
+Federal Courts
+PACER: https://www.pacer.gov
+Federal Court Records: https://www.uscourts.gov
+Supreme Court: https://www.supremecourt.gov
+State & Local Records
+BlackBook Online: https://www.blackbookonline.info
+Public Records Online: https://www.publicrecordsonline.com
+VitalRec: https://www.vitalrec.com
+SearchSystems: https://www.searchsystems.net
+Property Records
+PropertyRadar: https://www.propertyradar.com
+Zillow: https://www.zillow.com
+Realtor.com: https://www.realtor.com
+PropertyShark: https://www.propertyshark.com
+County Assessor Offices: Varies by location
+Vehicle & Transportation
+Vehicle Records
+License Plate Lookup: Multiple state DMV sites
+VIN Decoder: https://www.vehiclehistory.com
+CarFax: https://www.carfax.com
+AutoCheck: https://www.autocheck.com
+Aviation
+FlightAware: https://flightaware.com
+FlightRadar24: https://www.flightradar24.com
+FAA Registry: https://registry.faa.gov
+Maritime
+MarineTraffic: https://www.marinetraffic.com
+VesselFinder: https://www.vesselfinder.com
+USCG Vessel Documentation: https://www.uscg.mil
+Communication & Technology
+Phone Number Research
+TrueCaller: https://www.truecaller.com
+Reverse Phone Lookup: https://www.reversephonelookup.com
+WhitePages Reverse: https://www.whitepages.com/reverse-phone
+SpyDialer: https://www.spydialer.com
+Email Investigation
+Have I Been Pwned: https://haveibeenpwned.com
+Email Permutator: https://www.polarity.io/email-permutator
+Email Hippo: https://www.emailhippo.com
+Hunter.io: https://hunter.io
+IP Address & Network
+WHOIS: https://www.whois.net
+DomainTools: https://www.domaintools.com
+Shodan: https://www.shodan.io
+Robtex: https://www.robtex.com
+Image & Media Analysis
+Reverse Image Search
+Google Images: https://images.google.com
+TinEye: https://tineye.com
+Yandex Images: https://yandex.com/images
+Bing Visual Search: https://www.bing.com/visualsearch
+Metadata Analysis
+ExifTool: https://exiftool.org
+Metadata2go: https://www.metadata2go.com
+Verexif: https://www.verexif.com
+Video Analysis
+YouTube DataViewer: https://citizenevidence.amnestyusa.org
+InVID: https://www.invid-project.eu
+Google Dork Techniques
+Basic People Search Dorks
+"Full Name" + "City" + "State"
+"Full Name" + "Phone Number"
+"Full Name" + "Email"
+"Full Name" + "Address"
+"Full Name" + "DOB" OR "Date of Birth"
+"Full Name" + "SSN" OR "Social Security"
+"Full Name" + "Criminal" OR "Arrest" OR "Charges"
+"Full Name" + "Obituary" OR "Death" OR "Died"
+"Full Name" + "Missing" OR "Disappeared"
+Advanced Dorks
+site:linkedin.com "Full Name"
+site:facebook.com "Full Name"
+site:twitter.com "Full Name"
+site:instagram.com "Full Name"
+site:whitepages.com "Full Name"
+site:spokeo.com "Full Name"
+site:findagrave.com "Full Name"
+site:legacy.com "Full Name"
+site:ancestry.com "Full Name"
+site:familysearch.org "Full Name"
+Criminal & Legal Dorks
+"Full Name" + "mugshot" OR "booking"
+"Full Name" + "court records" OR "case"
+"Full Name" + "probation" OR "parole"
+"Full Name" + "warrant" OR "wanted"
+"Full Name" + "sex offender" OR "predator"
+"Full Name" + "bankruptcy" OR "foreclosure"
+"Full Name" + "lawsuit" OR "litigation"
+Death & Missing Person Dorks
+"Full Name" + "obituary" + "funeral home"
+"Full Name" + "death certificate"
+"Full Name" + "cemetery" + "burial"
+"Full Name" + "missing person" + "last seen"
+"Full Name" + "disappeared" + "found"
+"Full Name" + "body found" + "identified"
+"Full Name" + "remains" + "DNA"
+International Dorks
+"Full Name" + "Canada" OR "UK" OR "Australia"
+"Full Name" + site:*.ca OR site:*.uk OR site:*.au
+"Full Name" + "passport" OR "visa" OR "immigration"
+"Full Name" + "extradition" OR "fugitive"
+"Full Name" + "Interpol" OR "wanted internationally"
+Property & Asset Dorks
+"Full Name" + "property" OR "real estate"
+"Full Name" + "owns" OR "purchased"
+"Full Name" + "business" OR "company"
+"Full Name" + "LLC" OR "corporation"
+"Full Name" + "trademark" OR "patent"
+File Type Specific Dorks
+"Full Name" filetype:pdf
+"Full Name" filetype:doc OR filetype:docx
+"Full Name" filetype:xls OR filetype:xlsx
+"Full Name" filetype:ppt OR filetype:pptx
+"Full Name" filetype:txt
+Specialized Investigation Tools
+OSINT Frameworks
+OSINT Framework: https://osintframework.com
+Intel Techniques: https://inteltechniques.com
+Bellingcat Online Investigation Toolkit: https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ
+Analysis Tools
+Maltego: https://www.maltego.com
+Gephi: https://gephi.org
+Palantir Gotham: (Law Enforcement Only)
+i2 Analyst's Notebook: https://www.ibm.com/products/i2-analysts-notebook
+Browser Extensions
+Wayback Machine: Chrome/Firefox extension
+Ghostery: Privacy/tracking analysis
+Builtwith: Website technology analysis
+Wappalyzer: Website technology profiler
+Dark Web & Deep Web Resources
+Access Tools
+Tor Browser: https://www.torproject.org
+Tails OS: https://tails.boum.org
+Whonix: https://www.whonix.org
+Search Engines
+Ahmia: https://ahmia.fi
+DuckDuckGo: https://3g2upl4pq6kufc4m.onion
+Torch: Various .onion addresses
+News & Media Archives
+News Databases
+NewsBank: https://www.newsbank.com
+LexisNexis: https://www.lexisnexis.com
+Factiva: https://www.dowjones.com/products/factiva
+ProQuest: https://www.proquest.com
+Archive Sites
+Wayback Machine: https://web.archive.org
+Archive.today: https://archive.today
+Library of Congress: https://www.loc.gov
+Google News Archive: https://news.google.com/newspapers
+Financial & Business Intelligence
+Business Records
+SEC EDGAR: https://www.sec.gov/edgar
+OpenCorporates: https://opencorporates.com
+Dun & Bradstreet: https://www.dnb.com
+Bloomberg Terminal: (Subscription required)
+Financial Analysis
+FINRA BrokerCheck: https://brokercheck.finra.org
+SEC Investment Adviser Search: https://www.adviserinfo.sec.gov
+CFTC Registration: https://www.cftc.gov
+Academic & Research
+Academic Databases
+Google Scholar: https://scholar.google.com
+ResearchGate: https://www.researchgate.net
+Academia.edu: https://www.academia.edu
+JSTOR: https://www.jstor.org
+Thesis & Dissertation
+ProQuest Dissertations: https://www.proquest.com
+NDLTD: https://www.ndltd.org
+Mexico-Focused OSINT Resources
+Mexican Government Websites (.gob.mx)
+Federal Government Portal
+gob.mx: https://www.gob.mx - Main government portal
+Transparency Portal: https://www.gob.mx/transparencia
+National Data Platform: https://datos.gob.mx
+DataMéxico: https://www.economia.gob.mx/datamexico - Economic and social data visualization
+Key Government Agencies
+SEGOB - Secretaría de Gobernación: https://www.gob.mx/segob
+SRE - Secretaría de Relaciones Exteriores: https://www.gob.mx/sre
+SEDENA - Secretaría de la Defensa Nacional: https://www.gob.mx/sedena
+SEMAR - Secretaría de Marina: https://www.gob.mx/semar
+FGR - Fiscalía General de la República: https://www.gob.mx/fgr
+CNS - Comisión Nacional de Búsqueda: https://www.gob.mx/cnb
+CNDH - Comisión Nacional de los Derechos Humanos: https://www.cndh.org.mx
+INM - Instituto Nacional de Migración: https://www.gob.mx/inm
+SAT - Servicio de Administración Tributaria: https://www.sat.gob.mx
+IMSS - Instituto Mexicano del Seguro Social: https://www.imss.gob.mx
+ISSSTE: https://www.gob.mx/issste
+State and Local Government
+Estado de México: https://edomex.gob.mx
+Jalisco: https://www.jalisco.gob.mx
+Nuevo León: https://www.nl.gob.mx
+Tamaulipas: https://tamaulipas.gob.mx
+Chihuahua: https://www.chihuahua.gob.mx
+Ciudad de México (CDMX): https://www.cdmx.gob.mx
+Guerrero: https://guerrero.gob.mx
+Michoacán: https://michoacan.gob.mx
+Veracruz: https://veracruz.gob.mx
+Sinaloa: https://sinaloa.gob.mx
+Missing Persons & Disappeared (Desaparecidos)
+Official Databases and Registries
+RNPDNO - Registro Nacional de Personas Desaparecidas y No Localizadas: Official national registry
+CNB - Comisión Nacional de Búsqueda: https://www.gob.mx/cnb
+Sistema Nacional de Búsqueda de Personas: National search system
+Registro Nacional de Datos de Personas Extraviadas o Desaparecidas (RNPED): Federal database
+CENAPI - Centro Nacional de Planeación, Análisis e Información para el Combate a la Delincuencia: Crime analysis center
+Civil Society Organizations
+Movimiento por Nuestros Desaparecidos en México (MNDM): https://movndmx.org
+Fuerzas Unidas por Nuestros Desaparecidos en Coahuila: Regional search group
+AMORES de Nuevo León: Family search collective
+Desaparecidos Querétaro: State-level organization
+Ciudadanos en Apoyo a los Derechos Humanos: https://cadhac.org
+Centro de Derechos Humanos de las Mujeres: https://cedehm.org.mx
+Familias Unidas en la Búsqueda y Localización de Personas Desaparecidas: Search collective
+Specialized Resources
+Data Cívica - Registros Desaparecidos: https://registros-desaparecidos.datacivica.org
+A dónde van los desaparecidos: https://adondevanlosdesaparecidos.org - Investigative journalism platform
+Hasta Encontrarlos: https://hastaencontrarlos.org - Documentary project
+Red de Enlaces Nacionales: Network of family collectives
+Mexican Social Media Intelligence
+Platform Usage Statistics (2025)
+WhatsApp: 92.6% usage rate among Mexican internet users
+Facebook: 91.6% usage rate - Most preferred platform (27.8%)
+Instagram: 80.6% usage rate
+TikTok: 78.6% usage rate - Third most preferred (20.2%)
+Facebook Messenger: 76.3% usage rate
+X/Twitter: 47.5% usage rate
+Telegram: 47.2% usage rate
+Pinterest: 45.1% usage rate
+Snapchat: 26.4% usage rate
+Mexican Social Media Monitoring Tools
+Brandwatch: Social listening platform with Mexico focus
+Mention: Mexican social media monitoring
+Socialbakers: Mexico-specific analytics
+Talkwalker: Spanish-language social monitoring
+Brand24: Mexico market analysis
+Key Mexican Social Platforms
+Facebook México: Largest user base (93+ million users)
+Instagram México: 32+ million users
+TikTok México: Rapidly growing platform
+Twitter/X México: 11+ million users
+LinkedIn México: Professional networking
+YouTube México: 2nd most used platform globally in Mexico
+Mexican Business & Corporate Intelligence
+Business Registries
+Registro Público del Comercio: https://rpc.economia.gob.mx
+SAT - Registro Federal de Contribuyentes: Tax registry
+IMPI - Instituto Mexicano de la Propiedad Industrial: https://www.gob.mx/impi
+Compranet: https://www.gob.mx/compranet - Government procurement
+Sistema de Información Empresarial Mexicano: https://www.siem.gob.mx
+Financial Intelligence
+CNBV - Comisión Nacional Bancaria y de Valores: https://www.gob.mx/cnbv
+Condusef: https://www.condusef.gob.mx - Financial consumer protection
+UIF - Unidad de Inteligencia Financiera: Financial intelligence unit
+Banco de México: https://www.banxico.org.mx
+Mexican Death Records & Civil Registry
+Civil Registry Systems
+RENAPO - Registro Nacional de Población: National population registry
+CURP - Clave Única de Registro de Población: Unique population registry code
+Registro Civil: State-level civil registries (varies by state)
+INEGI - Instituto Nacional de Estadística y Geografía: https://www.inegi.org.mx
+Cemetery and Burial Records
+Panteones y Cementerios Municipales: Municipal cemetery records
+Servicios Médicos Forenses (SEMEFO): Forensic medical services
+Sistema Nacional de Información en Salud: National health information system
+Mexican Google Dork Techniques
+General People Search - Mexico Specific
+"Full Name" + "México" OR "Mexico"
+"Full Name" + "CURP"
+"Full Name" + "RFC" (tax ID)
+"Full Name" + "IMSS" (social security)
+"Full Name" + "desaparecido" OR "desaparecida"
+"Full Name" + "localizado" OR "localizada"
+"Full Name" + site:gob.mx
+"Full Name" + "estado de" + [State Name]
+"Full Name" + "municipio" + [Municipality]
+"Full Name" + "colonia" + [Neighborhood]
+Mexican Social Media Dorks
+"Full Name" + site:facebook.com + "México"
+"Full Name" + site:instagram.com + "México"
+"Full Name" + site:twitter.com + "México"
+"Full Name" + "WhatsApp" + "número"
+"Full Name" + "Telegram" + "México"
+"Full Name" + "TikTok" + "usuario"
+site:facebook.com "Full Name" + "vive en" + [City]
+site:instagram.com "Full Name" + "ubicación" + [Location]
+"Full Name" + "estudió en" + [School/University]
+"Full Name" + "trabaja en" + [Company]
+Missing Persons - Mexico Specific Dorks
+"Full Name" + "desaparecido" + "fecha"
+"Full Name" + "visto por última vez"
+"Full Name" + "se busca" OR "búsqueda"
+"Full Name" + "alerta Amber"
+"Full Name" + "persona extraviada"
+"Full Name" + "CNB" OR "Comisión Nacional de Búsqueda"
+"Full Name" + "RNPDNO"
+"Full Name" + "madres buscadoras"
+"Full Name" + "colectivos de búsqueda"
+site:movndmx.org "Full Name"
+"Full Name" + "fosa clandestina"
+"Full Name" + "localización" + "restos"
+Criminal/Legal - Mexico Specific Dorks
+"Full Name" + "FGR" OR "Fiscalía General"
+"Full Name" + "orden de aprehensión"
+"Full Name" + "proceso penal"
+"Full Name" + "delincuencia organizada"
+"Full Name" + "narcotráfico" OR "cártel"
+"Full Name" + "secuestro" OR "extorsión"
+"Full Name" + "feminicidio" OR "homicidio"
+"Full Name" + "SEIDO" (organized crime investigation)
+"Full Name" + "prisión" OR "cárcel" OR "reclusorio"
+"Full Name" + "libertad condicional"
+"Full Name" + "sentencia" OR "condena"
+site:tribunalmmm.gob.mx "Full Name"
+Government/Official Records Dorks
+"Full Name" + site:gob.mx filetype:pdf
+"Full Name" + "funcionario público"
+"Full Name" + "servidor público"
+"Full Name" + "declaración patrimonial"
+"Full Name" + "Sistema Nacional de Transparencia"
+"Full Name" + "INAI" (transparency institute)
+"Full Name" + "licitación" OR "contrato"
+"Full Name" + "ISSSTE" OR "IMSS"
+"Full Name" + "INE" (electoral institute)
+"Full Name" + "credencial de elector"
+"Full Name" + "padrón electoral"
+Business/Professional Dorks
+"Full Name" + "RFC" + "empresa"
+"Full Name" + "Registro Público del Comercio"
+"Full Name" + "razón social"
+"Full Name" + "SIEM" (business information system)
+"Full Name" + "IMPI" (intellectual property)
+"Full Name" + "marca registrada"
+"Full Name" + "Compranet" (government procurement)
+"Full Name" + "proveedor del gobierno"
+"Full Name" + "cámara de comercio"
+"Full Name" + "asociación empresarial"
+Regional/State Specific Dorks
+"Full Name" + "Estado de México" OR "Edomex"
+"Full Name" + "Ciudad de México" OR "CDMX"
+"Full Name" + "Jalisco" OR "Guadalajara"
+"Full Name" + "Nuevo León" OR "Monterrey"
+"Full Name" + "Tamaulipas" OR "Reynosa" OR "Matamoros"
+"Full Name" + "Chihuahua" OR "Ciudad Juárez"
+"Full Name" + "Guerrero" OR "Acapulco"
+"Full Name" + "Michoacán" OR "Morelia"
+"Full Name" + "Veracruz" OR "Xalapa"
+"Full Name" + "Sinaloa" OR "Culiacán"
+Property/Assets - Mexico Dorks
+"Full Name" + "Registro Público de la Propiedad"
+"Full Name" + "catastro" + [State/Municipality]
+"Full Name" + "predial" + "impuesto"
+"Full Name" + "escritura" + "propiedad"
+"Full Name" + "notario" + "público"
+"Full Name" + "hipoteca" + "crédito"
+"Full Name" + "Infonavit" OR "Fovissste"
+"Full Name" + "avalúo" + "valor catastral"
+Educational Records Dorks
+"Full Name" + "UNAM" OR "IPN" OR "UAM"
+"Full Name" + "universidad" + [Institution Name]
+"Full Name" + "cédula profesional"
+"Full Name" + "SEP" (education ministry)
+"Full Name" + "título profesional"
+"Full Name" + "certificado de estudios"
+"Full Name" + "preparatoria" OR "bachillerato"
+"Full Name" + "posgrado" OR "maestría" OR "doctorado"
+News/Media Specific Dorks
+"Full Name" + site:eluniversal.com.mx
+"Full Name" + site:reforma.com
+"Full Name" + site:jornada.com.mx
+"Full Name" + site:milenio.com
+"Full Name" + site:excelsior.com.mx
+"Full Name" + site:proceso.com.mx
+"Full Name" + site:animalpolitico.com
+"Full Name" + "nota roja" OR "nota policiaca"
+"Full Name" + "periódico local" + [City]
+Mexican File Type Specific Dorks
+"Full Name" + filetype:pdf + site:gob.mx
+"Full Name" + filetype:doc + "acta"
+"Full Name" + filetype:xls + "padrón"
+"Full Name" + filetype:xlsx + "registro"
+"Full Name" + filetype:pdf + "sentencia"
+"Full Name" + filetype:pdf + "denuncia"
+"Full Name" + filetype:pdf + "declaración"
+"Full Name" + filetype:pdf + "expediente"
+Mexican Phone/Communication Dorks
+"Full Name" + "teléfono" + [Area Code]
+"Full Name" + "celular" + "55" (Mexico City area)
+"Full Name" + "número" + "contacto"
+"Full Name" + "WhatsApp" + "+52"
+"Full Name" + "correo" + "@"
+"Full Name" + "email" + ".mx"
+"Full Name" + "Facebook" + "perfil"
+"Full Name" + "Instagram" + "cuenta"
+Legal Disclaimers & Best Practices
+Important Considerations
+Always verify information through multiple sources
+Respect privacy laws and regulations (GDPR, CCPA, etc.)
+Use information only for legitimate law enforcement purposes
+Maintain chain of custody for digital evidence
+Document all search methodologies and sources
+Consider statute of limitations for various records
+Be aware of international jurisdiction issues
+Mexico-specific: Understand Mexican data protection laws (LFPDPPP)
+Cultural considerations: Account for naming conventions (maternal/paternal surnames)
+Language barriers: Many records are Spanish-only; use translation tools when needed
+Data Retention
+Screenshot or archive important findings
+Maintain detailed investigation logs
+Use proper evidence handling procedures
+Consider using virtual machines for sensitive searches
+Mexico-specific: Preserve evidence according to Mexican legal standards
+Cross-border considerations: Follow both US and Mexican evidence preservation protocols
+Additional Resources
+Training & Education
+SANS FOR578: Cyber Threat Intelligence
+OSINT Curious: https://osintcurio.us
+Trace Labs: https://www.tracelabs.org
+Week in OSINT: https://sector035.nl/articles/category:week-in-osint
+Professional Organizations
+International Association of Law Enforcement Intelligence Analysts (IALEIA): https://www.ialeia.org
+Association of Certified Fraud Examiners (ACFE): https://www.acfe.com
+High Technology Crime Investigation Association (HTCIA): https://www.htcia.org
+Note: This resource list is for legitimate law enforcement and investigative purposes only. Always ensure compliance with applicable laws, regulations, and ethical guidelines when conducting investigations.
+
+
